@@ -1,5 +1,5 @@
 {
-    "name": "@dt/my-js-lib",
+    "name": "@dt/js-lib",
     "version": "0.0.1",
     "description": "Sample library for learning purposes. Please do not install.",
     "main": "lib/es5/index.js",
