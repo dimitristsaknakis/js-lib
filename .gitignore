@@ -1,0 +1,5 @@
+node_modules
+
+// only ignore lib, not dist/package.json
+dist/lib
+

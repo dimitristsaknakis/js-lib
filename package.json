@@ -1,0 +1,17 @@
+{
+  "name": "js-lib",
+  "version": "0.0.1",
+  "description": "An example library, please don't install.",
+  "repository": "git@github.com:dimitristsaknakis/js-lib.git",
+  "keywords": [
+    "example"
+  ],
+  "author": "Dimitris Tsaknakis",
+  "license": "ISC",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
