@@ -43,8 +43,18 @@
 - Created a \.gitignore file in the top-level folder (not dist).
 - Added all files to the Git staging area, issued a commit with a
   message, and pushed to the GitHub repo.
+- Publishing to npm:
+  - Navigate to dist (we're only interested in publishing that)
+  - Issuing an `npm publish` just like that will lead to an error,
+    since we're not authorized.
+  - Type `npm adduser` and fill your npm username and password to get 
+    authorized. Even then though, `npm publish` doesn't work as there's
+    a 'payment required' error message, since we tried to publish it
+    as a private package.
+  - Type `npm publish --access=public` in order to publish the lib as
+    a public package, it worked!
 
 ---
 
-Currently on minute 12:00 of YouTube video.
+Currently on minute 14:00 of YouTube video.
 
