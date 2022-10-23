@@ -1,5 +1,5 @@
 {
-    "name": "@dimitristsaknakis/js-lib",
+    "name": "@dt/js-lib",
     "version": "0.0.1",
     "description": "Sample library for learning purposes. Please do not install.",
     "main": "lib/es5/index.js",
@@ -25,7 +25,7 @@
     "author": "Dimitris Tsaknakis",
     "license": "MIT",
     "bugs": {
-        "https://github.com/dimitristsaknakis/js-lib/issues"
+        "url": "https://github.com/dimitristsaknakis/js-lib/issues"
     },
     "homepage": "https://github.com/dimitristsaknakis/js-lib#readme"
 }
