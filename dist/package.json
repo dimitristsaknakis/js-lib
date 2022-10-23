@@ -1,6 +1,6 @@
 {
     "name": "@dimitristsaknakis/js-lib",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Sample library for learning purposes. Please do not install.",
     "main": "lib/es5/index.js",
     "module": "lib/es6/index.js",
@@ -29,4 +29,3 @@
     },
     "homepage": "https://github.com/dimitristsaknakis/js-lib#readme"
 }
-
